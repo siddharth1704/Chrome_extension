@@ -14,4 +14,4 @@ Simply select the folder in which you have added the extension and it starts wor
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 # Ui 
-![Drag Racing](cp.png)
+![Drag Racing](cp.PNG)
