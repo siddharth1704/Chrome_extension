@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharths Launcher</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<style>
+    html,
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+      }
+
+      h1 {
+        font-family: "Menlo", monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .modal-content {
+        padding: 0 22px;
+      }
+
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .version {
+        color: #444;
+        font-size: 18px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #2f5876;
+      }
+</style>
+</head>
+
+<body>
+    <div class="modal-header">
+        <h1 class="logo">
+            <i class="fas fa-project-diagram"></i>
+          Competative coding
+          <span class="version">(1.0.0)</span>
+        </h1>
+      </div>
+      <div class="modal-content">
+        <p>Easy Access to Competative Coding Website</p>
+      </div>
+      <div class="modal-icons">
+        <div class="flex-container">
+          <div class="flex">
+            <a href="https://www.codechef.com/" target="_blank">
+              <img src="images\codechef-1324440139527402917.png" alt="codechef" srcset="">
+            </a>
+          </div>
+          <div class="flex">
+            <a href="https://codeforces.com/" target="_blank">
+             <img src="images\codeforces-removebg-preview.png" alt="codeforces" srcset="">
+            </a>
+          </div>
+          <div class="flex">
+            <a href="https://www.hackerrank.com/" target="_blank">
+              <img src="images\download-removebg-preview.png" alt="hackerrank" srcset="">
+            </a>
+          </div>
+          <div class="flex">
+            <a href="https://leetcode.com/" target="_blank">
+              <img src="images\LeetCode_logo_black.png" alt="leetcode" srcset="">
+            </a>
+          </div>
+         
+        </div>
+      </div>
+    
+</body>
+<script src="popup.js"></script>
+</html>
